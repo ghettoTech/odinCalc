@@ -1,0 +1,39 @@
+html {
+  min-height: 410px;
+}
+body,td,th {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1em;
+}
+/*It is important to use a fixed-width font so that the digits align. This makes it easier to notice patterns.*/
+button {
+  height: 60px;
+  width: 60px;
+  margin: 1px;
+  background: #fff;
+}
+button:hover {
+  background-color: #eee;
+  -webkit-transition: background-color .5s;
+}
+button:active {
+  background-color: #fff;
+  -webkit-transition: background-color 0s;
+}
+#centerV {
+  height: 410px;
+  width: 310px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#calcDisplay {
+	color: #00000;
+	border: 1px solid #000;
+	font-size: 35px;
+	margin-top: 10px;
+	width: 200px;
+  height: 40px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
